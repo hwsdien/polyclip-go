@@ -21,7 +21,7 @@ package polyutil
 
 import (
 	"bytes"
-	"github.com/ctessum/polyclip-go"
+	"github.com/hwsdien/polyclip-go"
 	. "testing"
 )
 

@@ -7,7 +7,7 @@ import (
 	"testing"
 	"time"
 
-	polyclip "github.com/ctessum/polyclip-go"
+	polyclip "github.com/hwsdien/polyclip-go"
 )
 
 type sorter polyclip.Polygon
@@ -779,7 +779,7 @@ func TestNonReductiveSegmentDivisions(t *testing.T) {
 				{X: 1.416e+06, Y: 0},
 				{X: 1.416e+06, Y: -12000}}},
 		},
-		// Test cases from https://github.com/ctessum/polyclip-go/blob/master/bugs_test.go
+		// Test cases from https://github.com/hwsdien/polyclip-go/blob/master/bugs_test.go
 		{
 			subject: polyclip.Polygon{{
 				{X: 1.7714672107465276e+06, Y: -102506.68254093888},
@@ -879,7 +879,7 @@ func TestNonReductiveSegmentDivisions(t *testing.T) {
 				{X: 1.1457914974731328e+06, Y: -251816.31287551578}}},
 		},
 		{
-			// From https://github.com/ctessum/polyclip-go/commit/6614925d6d7087b7afcd4c55571554f67efd2ec3
+			// From https://github.com/hwsdien/polyclip-go/commit/6614925d6d7087b7afcd4c55571554f67efd2ec3
 			subject: polyclip.Polygon{{
 				{X: 426694.6365274183, Y: -668547.1611580737},
 				{X: 426714.57523030025, Y: -668548.9238652373},

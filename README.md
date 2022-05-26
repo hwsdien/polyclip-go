@@ -26,7 +26,7 @@ Simplest Go program using polyclip-go for calculating intersection of a square a
 
     import (
         "fmt"
-        "github.com/ctessum/polyclip-go"
+        "github.com/hwsdien/polyclip-go"
     )
 
     func main() {
